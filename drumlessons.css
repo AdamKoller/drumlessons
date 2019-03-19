@@ -1,0 +1,52 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+  background-color: #fff;
+  background: url("drum1.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  background-size: cover;
+}
+h1 {
+  background: #1e1b1e url("logo.png") no-repeat;
+  width: 190px;
+  height: 300px;
+  float: left;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  margin: 0;
+  margin-top: -20px;
+}
+h2 {
+  margin: 1.75em 0 0 0;
+  color: #adffda;
+  font-weight: normal;
+}
+h2 .latest-offer {
+  font-weight: lighter;
+  font-size: 20px;
+}
+h2 + p {
+  margin: 0.25em 0 0 0;}
+p + p {
+  margin: 0;}
+p + h2 {
+  margin: 10px 0 0 0;
+}
+#info {
+  background-color: #1e1b1e;
+  color: #fff;
+  width: 200px;
+  padding: 0 15px;
+  text-align: center;
+  min-height: 100%;
+  position: absolute;
+  top: 0;
+  right: 15%;
+  opacity: .8;
+}
