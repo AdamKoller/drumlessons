@@ -26,6 +26,7 @@ h2 {
   margin: 1.75em 0 0 0;
   color: #adffda;
   font-weight: normal;
+  font-size: 40px;
 }
 h2 .latest-offer {
   font-weight: lighter;
@@ -48,5 +49,32 @@ p + h2 {
   position: absolute;
   top: 0;
   right: 15%;
-  opacity: .8;
+  opacity: .9;
+}
+#lessonType {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 120%;
+  margin-top: 10px;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  padding: 10px 0;
+}
+#lessonRate{
+  text-decoration: line-through;
+  display: inline-block;
+  float: left;
+  padding-top: 10px;
+}
+#specialRate {
+  font-size: 440%;
+  color: #ffb87a;
+  display: inline-block;
+  padding: 10px 0 20px 0;
+  margin: 0;
+}
+#offerEnds {
+  text-transform: uppercase;
+  color: #ffb87a;
+  font-size: 75%;
 }
